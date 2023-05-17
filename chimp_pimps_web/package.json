@@ -1,0 +1,51 @@
+{
+  "name": "nft-minter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fontsource/bebas-neue": "^4.5.7",
+    "@fontsource/palette-mosaic": "^4.5.10",
+    "@fontsource/sora": "^4.5.8",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "swiper": "^8.1.5",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@alch/alchemy-web3": "^1.4.2",
+    "dotenv": "^8.6.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5"
+  }
+}
