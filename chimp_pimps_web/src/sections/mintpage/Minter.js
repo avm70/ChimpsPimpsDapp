@@ -671,9 +671,14 @@ const scrollTo = (id) => {
               </MenuItem>
             </ButtonBackground>
           </ButtonContainer>
-            <TextContainer>
-            <Title>sold out</Title>
-            </TextContainer>
+          <ButtonContainer>
+            <ButtonBackground>
+              <MenuItem>
+                <BtnMint onClick={onWlMintPressed}>FREE MINT</BtnMint>            
+                <BtnMint onClick={onMintPressed}>MINT</BtnMint>
+              </MenuItem>
+            </ButtonBackground>
+          </ButtonContainer>
           <TextContainer>
           <Title>{mintStatus}</Title>
           </TextContainer>
