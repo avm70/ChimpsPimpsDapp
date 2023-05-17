@@ -25,7 +25,7 @@ REACT_APP_CONTRACT_ADDRESS = 0x1ab5e32588c8708F7D0D5Bfacf54be702feF4437
 ```
 Run command
 ```
-cd ChimpsPimpsDapp/chimps_pimps_web/
+cd ChimpsPimpsDapp/chimp_pimps_web/
 npm install
 npm run start
 ```
