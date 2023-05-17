@@ -18,12 +18,12 @@ The dapp is deployed on the Ethereum mainnet. Contract address 0x1ab5e32588c8708
 \
 Clone repository\
 \
-Create a .env file with following\
+Create a .env file with following
 ```
 REACT_APP_ALCHEMY_KEY = "<your_alchemy_project_id>"
 REACT_APP_CONTRACT_ADDRESS = 0x1ab5e32588c8708F7D0D5Bfacf54be702feF4437
 ```
-\Run command
+Run command
 ```
 cd ChimpsPimpsDapp/chimps_pimps_web/
 npm install
